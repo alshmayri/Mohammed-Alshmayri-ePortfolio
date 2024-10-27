@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="CIS Restaurant, Lunch Menu">
+	<meta name="description" content="CIS Restaurant: Lunch Menu">
+	<title>CIS Restaurant Menu</title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<style>
+	table {
+		border-collapse:	collapse;
+	}
+	th	{
+		background-color:		#876019;
+		color:					white;
+		padding:				7px;
+	}
+	td:hover  {
+		background-color:		#dbcbad;
+		text-align:				center;
+	}
+	td, th {
+		font-size:				1.05vw;
+	}
+	td {
+		text-align:				center;
+	}
+	.tablectr {
+		margin-left:			auto;
+		margin-right:			auto;
+	}
+	p {
+		text-align: 			center;
+	}
+	</style>
+</head>
+
+<body>
+
+<div id="container">
+
+
+<h1 class="center">CIS 122 Restaurant - Menu Orders</h1>
+
+<p class="blue">Management Reports</p>
+
+<p><img src="reports.png" alt="clipart of reports icon" width="170" 
+     height="170"></p>
+
+<table class="tablectr">
+<tr>
+	<td><a href="displayorders.php">Display All orders</a>
+		<a href="ICPDE/examples/displayorders.php">[PDF]</a></td>
+	</td>
+	<td><a href="displaytotal.php">Most Popular Menu Items</a>
+		<a href="charts/mostpopular.php">[chart]</a></td>
+	<td><a href="displaysalesl.php">Most Popular Days of Week</a></td>
+</tr>
+<tr>
+	<td><a href="displaycodes.php"># of Orders with Coupon Code</a></td>
+	<td><a href="displaytotal2.php">Least Popular Menu Items</a></td>
+	<td><a href="displaysales2.php">Total Sales by Month/Year</a></td>
+</tr>
+<tr>
+	<td><a href="zipcode.php">Total Orders by Zip Code</a></td>
+	<td><a href="taxes.php">Total Taxes Paid by Month/Year</a></td>
+	<td><a href="discounts.php">Total Discount Given by Month/Year</a></td>
+	<td></a></td>
+</tr>
+<tr>
+	<td><a href="stats.php">Min, Avg, Max Total by Month/Year</a></td>
+	<td><a href="cc.php">Credit Card Usage by Month/Year</a></td>
+	<td><a href="search.php">Search for an Order</a></td>
+</tr>
+</div>
+
+</body>
+</html>
